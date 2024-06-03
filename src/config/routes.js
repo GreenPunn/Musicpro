@@ -8,6 +8,7 @@ const routes = {
     empty: '/empty',
     collection: '/collection',
     admin: '/admin',
+    profile: '/profile'
 };
 
 export default routes;

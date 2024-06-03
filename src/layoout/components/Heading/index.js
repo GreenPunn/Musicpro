@@ -36,7 +36,10 @@ function Heading() {
         {
             icon: whiteUser,
             text: 'Profile',
-            to: '',
+            to: '/profile',
+            click: ()=> {
+                nav('/profile')
+            }
         },
         {
             icon: Setting,
@@ -121,13 +124,16 @@ function Heading() {
                                         
                                         <Menu data={data} largest="true" />
                                         {(user == 'Admin')&&<>
-                                        <MenuItem value={{icon: '',
-                                        text: 'MANAGEMENT',
-                                        to: '/admin',
-                                        click: ()=> {
-                                            nav('/admin')
-                                        }
+                                        <MenuItem value={
+                                            {
+                                                icon: '',
+                                                text: 'MANAGEMENT',
+                                                to: '/admin',
+                                                click: ()=> {
+                                                    nav('/admin')
+                                                }
                                         }}/>
+                                        
                                         </>}
                                     </Popper>
                                 </div>

@@ -8,6 +8,7 @@ import Signup from '~/pages/Authen/Signup';
 import Empty from '~/pages/Empty';
 import Collection from '~/pages/Collection';
 import Admin from '~/pages/Admin';
+import Profile from '~/pages/Profile';
 const publicRoutes = [
     { path: config.routes.home, component: Home },
     { path: config.routes.playlist, component: Playlist },
@@ -18,6 +19,7 @@ const publicRoutes = [
     { path: config.routes.empty, component: Empty },
     { path: config.routes.collection, component: Collection },
     { path: config.routes.admin, component: Admin },
+    { path: config.routes.profile, component: Profile },
 ];
 
 export { publicRoutes };
