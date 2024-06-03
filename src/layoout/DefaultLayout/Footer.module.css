@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px 60px 60px;
+    border-top: solid 1px #fff;
+}
+
+.contact {
+    display: flex;
+    min-width: 200px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    margin: 0 8px;
+    cursor: pointer;
+}

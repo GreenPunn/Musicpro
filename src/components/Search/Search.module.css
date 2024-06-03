@@ -1,0 +1,47 @@
+.wrapper{
+    position: relative;
+    outline: none;
+}
+
+.inputField {
+    display: inline-flex;
+    padding: 10px 156px 10px 19px;
+    align-items: center;
+    border-radius: 30px;
+    background: rgba(33, 33, 33, 0.30);
+    border: none;
+    padding-left: 56px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.inputField:focus-visible {
+    outline: none;
+}
+
+
+.searchIconWrapper {
+    position: absolute;
+    left: 10px;
+    top: 9px;
+}
+
+.menuWrapper {
+    width: 400px;
+}
+.iconWrapper {
+    flex-shrink: 0;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: var(--third, #4A4A4A);
+    margin-left: 12px;
+}
+.userIcon {
+    width: 24px;
+    height: 24px;
+}

@@ -1,0 +1,60 @@
+.wrapper {
+    height: 330px;
+    width: 100%;
+    padding-inline: 60px;
+}
+
+.img {
+    width: 333px;
+    height: 187px;
+    flex-shrink: 0;
+    border-radius: 4px;
+}
+
+.heading {
+    color: var(--text-color);
+
+    /* Title */
+    display: block;
+    font-family: Commissioner;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.body {
+    width: 2200px;
+    display: flex;
+    align-items: center;
+}
+
+.infoWrapper {
+    margin-left: 60px;
+}
+
+.albumName {
+    display: block;
+    color: var(--text-color);
+    font-family: Commissioner;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.artistName {
+    display: block;
+    color: var(--text-color);
+    font-family: Commissioner;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}

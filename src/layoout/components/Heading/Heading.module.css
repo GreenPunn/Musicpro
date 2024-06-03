@@ -1,0 +1,47 @@
+.wrapper {
+    display: inline-flex;
+    height: 93px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 99px;
+    flex-shrink: 0;
+    background: transparent;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.dFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconWrapper {
+    flex-shrink: 0;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: var(--third, #4a4a4a);
+    margin-left: 12px;
+}
+
+.optionBtnWrapper {
+    position: relative;
+}
+
+.optionPoperWrapper {
+    width: 240px;
+}
+.btnWrapper {
+    display: inline-block;
+    height: fit-content;
+    background-color: #575757;
+    border-radius: 4px;
+}

@@ -1,0 +1,33 @@
+.space {
+    height: 24px;
+}
+
+.tagStyle {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.marginRight {
+    margin-right: 12px;
+    margin-bottom: 16px;
+    display: inline-block;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.widgetWrapper {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemWrapper {
+    padding: 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 180px;
+}
+.itemWrapper:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,22 @@
+.wrapper {
+}
+
+.inputField {
+    border-radius: 8px;
+    border: 1px solid #5a5a5a;
+    background: #252525;
+    height: 46px;
+    width: 426px;
+    outline: none;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 16px;
+}
+.errLabel {
+    margin-top: 24px;
+    display: block;
+    color: red;
+    width: 426px;
+    margin-bottom: 8px;
+    height: 18px;
+}

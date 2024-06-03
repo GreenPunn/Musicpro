@@ -1,0 +1,18 @@
+.wrapper {
+    width: 100%;
+    height: fit-content;
+    padding: 6px 6px;
+}
+.text {
+    margin-left: 8px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    text-align: start;
+}

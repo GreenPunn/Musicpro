@@ -1,0 +1,74 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btnsWrapper {
+    margin-top: 22px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.blackText {
+    color: #000;
+}
+
+.space {
+    width: 40px;
+}
+
+.btnInner {
+    padding: 16px 30px;
+}
+
+.title {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.backBtn {
+    /* margin-left: 40px; */
+    position: absolute;
+    top: 114px;
+    left: 60px;
+}
+
+.backBtnText {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-block;
+    margin-left: 20px;
+}
+.errLabel {
+    margin-top: 24px;
+    display: block;
+    color: red;
+    width: 426px;
+    margin-bottom: 8px;
+    height: 18px;
+}
+
+.toastWrapper {
+    position: fixed;
+    right:40px;
+    bottom: 160px;
+    padding: 12px 24px;
+    text-align:left;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.success {
+    background-color: rgb(74, 249, 68);
+}
+
+.fail {
+    background-color: rgb(249, 68, 68);
+}

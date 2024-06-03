@@ -1,0 +1,27 @@
+.dialogWrapper {
+    width: 320px;
+    height: fit-content;
+    padding: 32px;
+    background: linear-gradient(217deg, rgba(0, 34, 121, 0.911) 10.05%, rgba(109, 45, 57, 0.829) 96.91%);
+    border-radius: 8px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+.btnsWrapper {
+    padding-top: 20px;
+    justify-content: end;
+    display: flex;
+}
+
+.accountManagementHeading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.headingItem {
+    font-size: 20px;
+    font-weight: 600;
+}

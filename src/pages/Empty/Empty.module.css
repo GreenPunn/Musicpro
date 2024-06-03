@@ -1,0 +1,19 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.itemWrapper:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.itemWrapper {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    border-radius: 8px;
+    width: 16.6%;
+    height: fit-content;
+}

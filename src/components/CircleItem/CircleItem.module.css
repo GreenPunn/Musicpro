@@ -1,0 +1,31 @@
+.wrapper {
+    width: 100%;
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sCircle{
+    width: 132px;
+    height:132px;
+}
+
+.lCircle {
+    width: 180px;   
+    height: 180px;
+}
+
+.nameField {
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 8px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

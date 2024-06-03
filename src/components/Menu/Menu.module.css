@@ -1,0 +1,14 @@
+.wrapper {
+    padding: 12px 20px;
+    min-width: 120px;
+    min-height: 100px;
+}
+
+.taskTitle {
+    font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 12px 20px;
+display: block;
+}

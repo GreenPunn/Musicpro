@@ -1,0 +1,22 @@
+[0;1;32m●[0m mssql-server.service - Microsoft SQL Server Database Engine
+     Loaded: loaded (/lib/systemd/system/mssql-server.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Tue 2023-11-07 12:35:57 +07; 13min ago
+       Docs: https://docs.microsoft.com/en-us/sql/linux
+   Main PID: 934 (sqlservr)
+      Tasks: 219
+     Memory: 1.8G
+        CPU: 21.227s
+     CGroup: /system.slice/mssql-server.service
+             ├─ 934 /opt/mssql/bin/sqlservr
+             └─1989 /opt/mssql/bin/sqlservr
+
+Thg 11 07 12:36:03 quivo-VivoBook-ASUSLaptop-X421EAY-A415EA sqlservr[1989]: [75B blob data]
+Thg 11 07 12:36:03 quivo-VivoBook-ASUSLaptop-X421EAY-A415EA sqlservr[1989]: [96B blob data]
+Thg 11 07 12:36:03 quivo-VivoBook-ASUSLaptop-X421EAY-A415EA sqlservr[1989]: [100B blob data]
+Thg 11 07 12:36:03 quivo-VivoBook-ASUSLaptop-X421EAY-A415EA sqlservr[1989]: [71B blob data]
+Thg 11 07 12:36:03 quivo-VivoBook-ASUSLaptop-X421EAY-A415EA sqlservr[1989]: [124B blob data]
+Thg 11 07 12:41:05 quivo-VivoBook-ASUSLaptop-X421EAY-A415EA sqlservr[1989]: [76B blob data]
+Thg 11 07 12:41:05 quivo-VivoBook-ASUSLaptop-X421EAY-A415EA sqlservr[1989]: [75B blob data]
+Thg 11 07 12:41:36 quivo-VivoBook-ASUSLaptop-X421EAY-A415EA sqlservr[1989]: [156B blob data]
+Thg 11 07 12:41:36 quivo-VivoBook-ASUSLaptop-X421EAY-A415EA sqlservr[1989]: [195B blob data]
+Thg 11 07 12:45:43 quivo-VivoBook-ASUSLaptop-X421EAY-A415EA sqlservr[1989]: [71B blob data]

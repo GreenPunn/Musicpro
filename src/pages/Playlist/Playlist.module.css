@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+}
+.container {
+    width: 50%;
+    padding: 24px 40px;
+}
+
+.playlistContainer {
+    background: rgba(80, 80, 80, 0.20);
+}
+
+.songContainer {
+    background: rgba(26, 26, 26, 0.20);
+
+}
